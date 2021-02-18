@@ -23,16 +23,22 @@ namespace H
 
         protected override void HO()
         {
-            age = 20;
+            age = 32;
             wight = 60;
             height = 2;
             Console.WriteLine($"age : {age},\nwight : {wight},\nheight : {height}");
+        }
+
+        private void Hobby()
+        {
+            Console.WriteLine("Traval around the World\n");
         }
 
         public void Show()
         {
             HI();
             HO();
+            Hobby();
             Console.WriteLine("");
         }
 

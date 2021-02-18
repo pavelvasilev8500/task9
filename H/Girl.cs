@@ -23,16 +23,22 @@ namespace H
 
         protected override void HO()
         {
-            age = 15;
+            age = 30;
             wight = 20;
             height = 1;
             Console.WriteLine($"age : {age},\nwight : {wight},\nheight : {height}");
+        }
+
+        private void Birth()
+        {
+            Console.WriteLine("Give birth to a child\n");
         }
 
         public void Show()
         {
             HI();
             HO();
+            Birth();
             Console.WriteLine("");
         }
     }
