@@ -31,7 +31,7 @@ namespace H
 
         private void Hobby()
         {
-            Console.WriteLine("Traval around the World\n");
+            Console.WriteLine("Travel around the World\n");
         }
 
         public void Show()
